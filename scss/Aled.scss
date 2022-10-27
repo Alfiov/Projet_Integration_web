@@ -90,6 +90,23 @@ li {
   text-align: justify;
 }
 
+.logo-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  flex-wrap: nowrap;
+
+  img {
+    width: 16px;
+    height: 16px;
+    margin-top : 5px;
+  }
+
+  .date{
+    margin-top: 5px;
+  }
+}
+
 .menu-principal {
   display: flex;
   flex-direction: row;
